@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var tar = '';
+        // for (var i = 1; i <= 9; i++) {
+        //     for (var j = i; j <= 9; j++) {
+        //         tar += i + '×' + j + '=' + i * j + '\t'
+        //     }
+        //     tar = tar + '\n';
+        // }
+        // console.log(tar);
+        // var tar = '';
+        // for (var i = 1; i <= 9; i++) {
+        //     for (var j = i; j <= 9; j++)
+        //         tar += i + '×' + j + "=" + i * j + "\t"
+        //     tar += "\n"
+        // }
+        // console.log(tar);
+        // var tar = '';
+        // for (var i = 1; i <= 9; i++) {
+        //     for (var j = 1; j <= i; j++) {
+        //         tar += j + "×" + i + "=" + i * j + "\t"
+        //     }
+        //     tar += '\n'
+        // }
+        // console.log(tar);
+        // var sum = 0;
+        // var q = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     // if (i % 2 == 0)
+        //     sum += i;
+        // }
+        // q = sum % 100
+        // console.log(q);
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 3 == 0)
+        //         sum += i
+        // }
+        // console.log(sum);
+        // var jsum = 0;
+        // var osum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 2 == 0) {
+        //         jsum += i;
+        //     } else {
+        //         osum += i;
+        //     }
+        // }
+        // console.log(jsum);
+        // console.log(osum);
+
+
+        // var tar = '';
+        // for (var i = 1; i <= 9; i++) {
+        //     for (var j = 1; j <= i; j++) {
+        //         tar += j + '×' + i + '=' + i * j + '\t'
+        //     }
+        //     tar += '\n'
+        // }
+        // console.log(tar);
+        // var money = 100;
+        // var num = prompt('1.存钱  \n2.取钱  \n3.显示余额  \n4.退出')
+        // switch (num) {
+        //     case '1':
+        //         var num1 = prompt('存钱')
+        //         var result = (parseFloat(money) + parseFloat(num1))
+        //         alert('你的余额是' + result)
+        //         break;
+        //     case '2':
+        //         var num2 = prompt('取钱')
+        //         var result = (parseFloat(money) - parseFloat(num2))
+        //         alert('你的余额是' + result)
+        //         break;
+        //     case '3':
+        //         // var num3 = prompt('显示余额')
+        //         alert('你的余额是' + money)
+        //         break;
+        //     case '4':
+        //         // var num4 = prompt('退出')
+        //         alert('退出成功')
+        //         break;
+        // }
+        var money = 100;
+        var sum = prompt('1.存钱 \n 2.取钱 \n3.显示余额 \n4.推出')
+        switch (sum) {
+            case '1':
+                var sum1 = prompt('存钱')
+                var result = (parseInt(money) + parseInt(sum1))
+                alert('你的余额是' + result)
+                break;
+            case '2':
+                var sum2 = prompt('取钱')
+                var result = (parseInt(money) - parseInt(sum2))
+                alert('你的余额是' + result)
+                break;
+            case '3':
+                alert('你的余额是' + money)
+                break;
+            case '4':
+                alert('退出成功')
+                break;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
